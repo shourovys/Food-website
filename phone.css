@@ -1,0 +1,106 @@
+* {
+  margin: 0px 5px;
+}
+
+/* ------------------------------------------------------- Navigation Bar */
+header {
+  visibility: hidden;
+}
+
+/*----------------------------------------- Navigation Bar: List Styling */
+.nevlist {
+  display: none;
+}
+
+/* ---------------------------------------------------------------Hone section */
+.home {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  padding: 0%;
+  margin: 0;
+}
+
+/* --------------------------------------------------------------services-container */
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+.services img {
+  height: 150px;
+}
+.box {
+  padding: 12px 15px;
+  height: 290px;
+  box-shadow: 0px 0px 10px 4px lightgray;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+.box p {
+  padding: 2px 5px;
+}
+/* --------------------------------------------------------------------Our clint */
+.clint {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.client-item {
+}
+.client-item img {
+  height: 80px;
+}
+
+/* ---------------------------------------------------------------------contact us section */
+#contact-section {
+  position: relative;
+}
+.contact {
+  display: flex;
+  font-size: 1.4rem;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 250px;
+}
+.contact-box input {
+  margin-bottom: 10px;
+  display: block;
+  width: 20rem;
+  height: 1.3rem;
+  padding: 7px 0px;
+}
+
+/* 
+------------------------------------------------------------------Utility class */
+.h-primary {
+  font-size: 2.4rem;
+}
+.h-secondary {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+p {
+  font-size: 0.7rem;
+  font-weight: 100;
+}
+.btn {
+  border: none;
+  padding: 8px 24px;
+  margin: 20px 5px;
+  border-radius: 6px;
+  color: white;
+  /* background-color: #ff0000; */
+  background-color: #ffb600;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+}
+.center {
+  text-align: center;
+}
